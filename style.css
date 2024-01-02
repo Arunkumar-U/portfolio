@@ -1,27 +1,36 @@
-.red{
-   background-color: red;
-   height: 200px;
-   weight:100px;
+.orange{
+   width:600px;
+   height:200px;
+   background-color:orange;
    
 }
-.blue{
-    background-color:blue;
-    height:100px;
-    weight:100px;
-    
- }
- .circle{
-    width: 100px;
-      height: 100px;
-      background-color:white;
-      border-radius: 50%;
-      position: absolute;
-      top:200px;
-      padding:20px;
-      left: 50%;
-
-
- }
+.white{
+   width:600px;
+   height:200px;
+   background-color:white;
+}
+.white > div{
+   width:200px;
+   height:200px;
+   background-color:blue;
+   border-radius:50%;
+   position:relative;
+   left:200px;
+}
+.white div div p{ 
+   color:white;
+   font-size:3rem;
+   margin: 0;
+   padding:0;
+   text-align:center;
+   position:relative;
+   top:50px;
+}
+.green{
+   width:600px;
+   height:200px;
+   background-color:green;
+}
 
 
 
